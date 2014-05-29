@@ -1,0 +1,2 @@
+E:\TelerikAkademy\QA\01-High-quality-code\04-Variables-DataExpressions-Constants\HomeWork\HQC-Homework-Variables-DataE\HQC-Homework-Variables-DataE\bin\Debug\HQC-Homework-Variables-DataE.exe.config
+E:\TelerikAkademy\QA\01-High-quality-code\04-Variables-DataExpressions-Constants\HomeWork\HQC-Homework-Variables-DataE\HQC-Homework-Variables-DataE\obj\Debug\HQC-Homework-Variables-DataE.csprojResolveAssemblyReference.cache

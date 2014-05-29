@@ -1,0 +1,5 @@
+E:\ta\QA\01-High-quality-code\06-High-QualityMethods\Homework\Methods\bin\Debug\Methods.exe
+E:\ta\QA\01-High-quality-code\06-High-QualityMethods\Homework\Methods\bin\Debug\Methods.pdb
+E:\ta\QA\01-High-quality-code\06-High-QualityMethods\Homework\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+E:\ta\QA\01-High-quality-code\06-High-QualityMethods\Homework\Methods\obj\Debug\Methods.exe
+E:\ta\QA\01-High-quality-code\06-High-QualityMethods\Homework\Methods\obj\Debug\Methods.pdb

@@ -1,0 +1,2 @@
+E:\TelerikAkademy\QA\01-High-quality-code\01Code-Formatting\Homework\events\events\bin\Debug\events.exe.config
+E:\TelerikAkademy\QA\01-High-quality-code\01Code-Formatting\Homework\events\events\obj\Debug\events.csprojResolveAssemblyReference.cache

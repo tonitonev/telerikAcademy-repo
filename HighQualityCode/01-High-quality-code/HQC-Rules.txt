@@ -1,0 +1,43 @@
+01-Code-Formatting
+- use empty lines between methods
+- Use an empty line to separate logically related sequences of lines
+- don't use spaces between brackets
+- order of definitions:
+	- Constants, delegates, inner types, fields, constructors, 
+	properties, methods
+	Static members, public members, protected members,  
+	internal members, private members
+- Break long lines after punctuation 
+	if (matrix[x, y] == 0 || matrix[x-1, y] == 0 ||
+	...
+- In C# use single [Tab] after breaking a long line:
+- In JavaScript use double [Tab] in the carried long lines:	
+************************************************************************
+02-Naming Identifiers
+- Naming types (classes, structures, etc.)
+	- Use PascalCase character casing in C#, JavaScript, Java, PHP
+	- [Noun], [Adjective] + [Noun]
+- Naming Interfaces in C#	
+  -'I' + [Verb] + 'able'
+  -'I' + [Noun], 'I' + [Adjective] + [Noun]
+- Naming Interfaces in JS / Java 
+  -[Verb] + 'able'
+  -[Noun], [Adjective] + [Noun]
+- Naming Methods 
+  - Use PascalCase  for C# and camelCase for JavaScript, PHP and Java
+- Naming Method Parameters, Naming Variables 
+  - Preferred form: [Noun] or [Adjective] + [Noun]
+  - Should be in camelCase  
+
+************************************************************************
+06-High-Quality Methods
+  - Put most important parameters first
+  - Put the main input parameters first
+  - Put non-important optional parameters last	
+  - Do not modify the input parameters
+  - Use new variable instead
+  - Use the same names and the same order in all methods
+  - Output parameters should be put last
+  - Limit the number of parameters to 7 (+/-2)
+************************************************************************
+07-High-Quality Clases

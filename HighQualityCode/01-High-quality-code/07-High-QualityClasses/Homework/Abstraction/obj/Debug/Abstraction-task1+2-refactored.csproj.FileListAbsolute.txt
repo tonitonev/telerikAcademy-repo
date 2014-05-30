@@ -1,0 +1,5 @@
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Abstraction\obj\Debug\Abstraction.exe
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Abstraction\obj\Debug\Abstraction.pdb
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Abstraction\bin\Debug\Abstraction.exe
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Abstraction\bin\Debug\Abstraction.pdb
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Abstraction\obj\Debug\Abstraction-task1+2-refactored.csprojResolveAssemblyReference.cache

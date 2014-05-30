@@ -5,9 +5,9 @@ VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction-task1+2-refactored", "Abstraction\Abstraction-task1+2-refactored.csproj", "{E2BD3DC8-7DD6-4349-BEAA-7A0BC38846DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion-and-Coupling", "Cohesion-and-Coupling\Cohesion-and-Coupling.csproj", "{268AEC63-DABA-4607-8E60-997E09EB5F2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cohesion-and-Coupling-task3-refactored", "Cohesion-and-Coupling\Cohesion-and-Coupling-task3-refactored.csproj", "{268AEC63-DABA-4607-8E60-997E09EB5F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance-and-Polymorphism", "Inheritance-and-Polymorphism\Inheritance-and-Polymorphism.csproj", "{CC40B053-CC90-4956-8591-01AC016C3188}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance-and-Polymorphism-task4-refactored", "Inheritance-and-Polymorphism\Inheritance-and-Polymorphism-task4-refactored.csproj", "{CC40B053-CC90-4956-8591-01AC016C3188}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

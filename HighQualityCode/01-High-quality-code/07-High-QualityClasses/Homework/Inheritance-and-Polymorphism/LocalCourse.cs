@@ -4,47 +4,24 @@ using System.Text;
 
 namespace InheritanceAndPolymorphism
 {
-    public class LocalCourse
+    public class LocalCourse: Course
     {
-        public string Name { get; set; }
-        public string TeacherName { get; set; }
-        public IList<string> Students { get; set; }
         public string Lab { get; set; }
-
+        
         public LocalCourse(string name)
+            : base(name)
         {
-            this.Name = name;
-            this.TeacherName = null;
-            this.Students = new List<string>();
             this.Lab = null;
         }
-
         public LocalCourse(string courseName, string teacherName)
+            :base (courseName, teacherName)
         {
-            this.Name = courseName;
-            this.TeacherName = teacherName;
-            this.Students = new List<string>();
             this.Lab = null;
         }
-
         public LocalCourse(string courseName, string teacherName, IList<string> students)
+            : base(courseName, teacherName, students)
         {
-            this.Name = courseName;
-            this.TeacherName = teacherName;
-            this.Students = students;
             this.Lab = null;
-        }
-
-        private string GetStudentsAsString()
-        {
-            if (this.Students == null || this.Students.Count == 0)
-            {
-                return "{ }";
-            }
-            else
-            {
-                return "{ " + string.Join(", ", this.Students) + " }";
-            }
         }
 
         public override string ToString()

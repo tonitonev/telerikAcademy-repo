@@ -1,0 +1,4 @@
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Cohesion-and-Coupling\obj\Debug\Cohesion-and-Coupling.exe
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Cohesion-and-Coupling\obj\Debug\Cohesion-and-Coupling.pdb
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Cohesion-and-Coupling\bin\Debug\Cohesion-and-Coupling.exe
+E:\ta\QA\01-High-quality-code\07-High-QualityClasses\Homework\Cohesion-and-Coupling\bin\Debug\Cohesion-and-Coupling.pdb

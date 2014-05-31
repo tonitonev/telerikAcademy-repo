@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!Write a script that selects all the div nodes that are directly inside other div elements
+    <!Create a function using querySelectorAll()
+    <!Create a function using getElementsByTagName()
+    <title>p01-Select div nodes</title>title>
+    <style>
+        body div div {
+            border: 1px solid;
+            border-radius: 25px;
+        }
+
+        #basis {
+            border: 2px solid;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="basis">
+        &nbsp&nbsp&nbsp here is the basis div
+
+        <div id="subdiv1">
+            &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp div1 inside basis
+        </div>
+        <div id="subdiv2">
+            &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp div2 inside basis
+        </div>
+    </div>
+    <script>
+        function getLiveNodeList() {
+            var wrapperLiveDiv = document.getElementsByTagName('div');
+            var innerDiv = [];
+
+            for (var i = 0, len = wrapperLiveDiv.length; i < len; i++) {
+                innerDiv.push(wrapperLiveDiv[i].getElementsByTagName('div'));
+            }
+
+            for (var j = 0, len = innerDiv.length; j < len-2; j++) { //len-2, beacause the last 2 are length and item -> see slide 22 from presentation
+                console.log(innerDiv[j]);
+            }
+        }
+
+        function getStaticNodeList() {
+            var staticDiv = document.querySelectorAll('div > div');
+            for (var i = 0, len = staticDiv.length; i < len; i++) {
+                console.log(staticDiv);
+            }
+        }
+        getLiveNodeList();
+        getStaticNodeList();
+
+    </script>
+</body>
+</html>

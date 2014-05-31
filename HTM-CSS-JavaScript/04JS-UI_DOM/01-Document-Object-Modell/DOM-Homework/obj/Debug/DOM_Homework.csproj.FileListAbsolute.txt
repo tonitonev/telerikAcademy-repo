@@ -1,0 +1,6 @@
+E:\ta\WebTrack\04JS-UI_DOM\Homework\DOM-Homework\DOM-Homework\bin\DOM_Homework.dll.config
+E:\ta\WebTrack\04JS-UI_DOM\Homework\DOM-Homework\DOM-Homework\bin\DOM_Homework.dll
+E:\ta\WebTrack\04JS-UI_DOM\Homework\DOM-Homework\DOM-Homework\bin\DOM_Homework.pdb
+E:\ta\WebTrack\04JS-UI_DOM\Homework\DOM-Homework\DOM-Homework\obj\Debug\DOM_Homework.csprojResolveAssemblyReference.cache
+E:\ta\WebTrack\04JS-UI_DOM\Homework\DOM-Homework\DOM-Homework\obj\Debug\DOM_Homework.dll
+E:\ta\WebTrack\04JS-UI_DOM\Homework\DOM-Homework\DOM-Homework\obj\Debug\DOM_Homework.pdb

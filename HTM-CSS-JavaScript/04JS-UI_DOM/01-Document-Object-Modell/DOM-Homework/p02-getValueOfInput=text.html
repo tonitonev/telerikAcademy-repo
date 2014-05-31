@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Get value of input type = text</title>
+    <!Create a function that gets the value of <!input type="text">
+    <!ands prints its value to the console
+</head>
+<body>
+    <label for="firstBox">First text box</label>
+    <input type="text"  id = "firstBox" onchange="getText(this)"/>
+    <label for="secondBox">Second text box</label>
+    <input type="text" id="secondBox" onchange="getText(this)"/>
+
+    <script>
+        function getText(input) {
+            alert('You have entered: ' + input.value);
+        }
+        getText();
+        
+    </script>
+</body>
+</html>

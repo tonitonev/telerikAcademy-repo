@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>p03- get and set color</title>
+    <!Crеate a function that gets the value of
+    <!input type="color" and sets the background of the body to this value
+</head>
+<body>
+    <label for="colorBox">color box</label>
+    <input type="color" id="colorBox" onchange="changeColor(this)"  />
+
+    <script>
+        function changeColor(input) {
+
+            //get color from input color fieled
+            var color = input.value;
+
+            //set the color to background
+            document.body.style.background = color;
+        }
+       
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+E:\ta\WebTrack\04JS-UI_DOM\02-HTML5-Canvas\Homework\Canvas-Homework\Canvas-Homework\bin\Canvas_Homework.dll.config
+E:\ta\WebTrack\04JS-UI_DOM\02-HTML5-Canvas\Homework\Canvas-Homework\Canvas-Homework\bin\Canvas_Homework.dll
+E:\ta\WebTrack\04JS-UI_DOM\02-HTML5-Canvas\Homework\Canvas-Homework\Canvas-Homework\bin\Canvas_Homework.pdb
+E:\ta\WebTrack\04JS-UI_DOM\02-HTML5-Canvas\Homework\Canvas-Homework\Canvas-Homework\obj\Debug\Canvas_Homework.csprojResolveAssemblyReference.cache
+E:\ta\WebTrack\04JS-UI_DOM\02-HTML5-Canvas\Homework\Canvas-Homework\Canvas-Homework\obj\Debug\Canvas_Homework.dll
+E:\ta\WebTrack\04JS-UI_DOM\02-HTML5-Canvas\Homework\Canvas-Homework\Canvas-Homework\obj\Debug\Canvas_Homework.pdb

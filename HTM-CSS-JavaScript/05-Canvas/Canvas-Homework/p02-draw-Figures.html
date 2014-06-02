@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>p02-draw-figures</title>
+    <style>
+        canvas{
+            border: solid 1px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="theCanvas" width="800" height="600"></canvas>
+    <script>
+        var ctx = document.getElementById('theCanvas').getContext('2d');
+        var totalWidth = ctx.canvas.width;
+        var totalHeight = ctx.canvas.height;
+
+        var movementByX = 'P';
+        var movementByY = 'P';
+
+        var positionX = totalWidth / 2;
+        var positionY = totalHeight / 2;
+        var radius = 20;
+        var speed = 2;
+
+        function drawCircle() {
+            ctx.beginPath();
+            ctx.fillStyle = '#3EFF30';
+            ctx.moveTo(positionX, positionY);
+            ctx.arc(positionX, positionY, radius, 0, 7);
+            ctx.fill();
+        }
+
+        function updateDirections() {
+            if (movementByX == 'P') {
+                positionX += speed;
+                if (positionX + radius > totalWidth) {
+                    movementByX = 'N';
+                    positionX -= 2 * speed;
+                }
+            }
+            else if (movementByX == 'N') {
+                positionX -= speed;
+                if (positionX - radius < 0) {
+                    movementByX = 'P';
+                    positionX += 2 * speed;
+                }
+            }
+
+            if (movementByY == 'P') {
+                positionY += speed;
+                if (positionY + radius > totalHeight) {
+                    movementByY = 'N';
+                    positionY -= 2 * speed;
+                }
+            }
+            else if (movementByY == 'N') {
+                positionY -= speed;
+                if (positionY - radius < 0) {
+                    movementByY = 'P';
+                    positionY += 2 * speed;
+                }
+            }
+        }
+
+        function cMove() {
+            ctx.clearRect(0, 0, totalWidth, totalHeight);
+            updateDirections();
+            drawCircle();
+        }
+
+        setInterval(cMove, 1);
+        
+    </script>
+</body>
+</html>

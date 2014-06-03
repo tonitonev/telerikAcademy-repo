@@ -1,0 +1,6 @@
+E:\ta\WebTrack\04JS-UI_DOM\Homework\Homework-KineticJS\Homework-KineticJS\bin\Homework_KineticJS.dll.config
+E:\ta\WebTrack\04JS-UI_DOM\Homework\Homework-KineticJS\Homework-KineticJS\bin\Homework_KineticJS.dll
+E:\ta\WebTrack\04JS-UI_DOM\Homework\Homework-KineticJS\Homework-KineticJS\bin\Homework_KineticJS.pdb
+E:\ta\WebTrack\04JS-UI_DOM\Homework\Homework-KineticJS\Homework-KineticJS\obj\Debug\Homework_KineticJS.csprojResolveAssemblyReference.cache
+E:\ta\WebTrack\04JS-UI_DOM\Homework\Homework-KineticJS\Homework-KineticJS\obj\Debug\Homework_KineticJS.dll
+E:\ta\WebTrack\04JS-UI_DOM\Homework\Homework-KineticJS\Homework-KineticJS\obj\Debug\Homework_KineticJS.pdb
